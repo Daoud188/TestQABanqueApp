@@ -6,8 +6,8 @@ Feature: Flux d'authentifaction sécurisé
   Scenario: Authentifaction réussie avec des identifiants valides 
     When il sélectionne la banque "BNP Paribas" dans la liste 
     And il est redirigé vers le flux d authentifaction sécurisé de la banque choisie
-    When il saisit son identifiant comme "5419844742" 
-    And il saisait son mot de passe comme "180265"
+    When il saisit son identifiant comme "541956578" 
+    And il saisait son mot de passe comme "180532"
     And il clique sur valider
     Then il est redirigé vers la page de la synchronisation avec Algoan
 
